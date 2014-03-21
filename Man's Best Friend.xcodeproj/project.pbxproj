@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB18D9418DCC92E00EABF0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB18D9318DCC92E00EABF0F /* Foundation.framework */; };
+		CCB18D9618DCC92E00EABF0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB18D9518DCC92E00EABF0F /* CoreGraphics.framework */; };
+		CCB18D9818DCC92E00EABF0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB18D9718DCC92E00EABF0F /* UIKit.framework */; };
+		CCB18D9E18DCC92E00EABF0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCB18D9C18DCC92E00EABF0F /* InfoPlist.strings */; };
+		CCB18DA018DCC92E00EABF0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB18D9F18DCC92E00EABF0F /* main.m */; };
+		CCB18DA418DCC92E00EABF0F /* MBFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB18DA318DCC92E00EABF0F /* MBFAppDelegate.m */; };
+		CCB18DA718DCC92E00EABF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB18DA518DCC92E00EABF0F /* Main.storyboard */; };
+		CCB18DAA18DCC92E00EABF0F /* MBFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB18DA918DCC92E00EABF0F /* MBFViewController.m */; };
+		CCB18DAC18DCC92E00EABF0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB18DAB18DCC92E00EABF0F /* Images.xcassets */; };
+		CCB18DB318DCC92E00EABF0F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB18DB218DCC92E00EABF0F /* XCTest.framework */; };
+		CCB18DB418DCC92E00EABF0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB18D9318DCC92E00EABF0F /* Foundation.framework */; };
+		CCB18DB518DCC92E00EABF0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB18D9718DCC92E00EABF0F /* UIKit.framework */; };
+		CCB18DBD18DCC92E00EABF0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCB18DBB18DCC92E00EABF0F /* InfoPlist.strings */; };
+		CCB18DBF18DCC92E00EABF0F /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB18DBE18DCC92E00EABF0F /* Man_s_Best_FriendTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB18DB618DCC92E00EABF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB18D8818DCC92E00EABF0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB18D8F18DCC92E00EABF0F;
+			remoteInfo = "Man's Best Friend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCB18D9018DCC92E00EABF0F /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB18D9318DCC92E00EABF0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCB18D9518DCC92E00EABF0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCB18D9718DCC92E00EABF0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCB18D9B18DCC92E00EABF0F /* Man's Best Friend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best Friend-Info.plist"; sourceTree = "<group>"; };
+		CCB18D9D18DCC92E00EABF0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCB18D9F18DCC92E00EABF0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCB18DA118DCC92E00EABF0F /* Man's Best Friend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Man's Best Friend-Prefix.pch"; sourceTree = "<group>"; };
+		CCB18DA218DCC92E00EABF0F /* MBFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBFAppDelegate.h; sourceTree = "<group>"; };
+		CCB18DA318DCC92E00EABF0F /* MBFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBFAppDelegate.m; sourceTree = "<group>"; };
+		CCB18DA618DCC92E00EABF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB18DA818DCC92E00EABF0F /* MBFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBFViewController.h; sourceTree = "<group>"; };
+		CCB18DA918DCC92E00EABF0F /* MBFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBFViewController.m; sourceTree = "<group>"; };
+		CCB18DAB18DCC92E00EABF0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCB18DB118DCC92E00EABF0F /* Man's Best FriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Man's Best FriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB18DB218DCC92E00EABF0F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCB18DBA18DCC92E00EABF0F /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
+		CCB18DBC18DCC92E00EABF0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCB18DBE18DCC92E00EABF0F /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB18D8D18DCC92E00EABF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB18D9618DCC92E00EABF0F /* CoreGraphics.framework in Frameworks */,
+				CCB18D9818DCC92E00EABF0F /* UIKit.framework in Frameworks */,
+				CCB18D9418DCC92E00EABF0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB18DAE18DCC92E00EABF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB18DB318DCC92E00EABF0F /* XCTest.framework in Frameworks */,
+				CCB18DB518DCC92E00EABF0F /* UIKit.framework in Frameworks */,
+				CCB18DB418DCC92E00EABF0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB18D8718DCC92E00EABF0F = {
+			isa = PBXGroup;
+			children = (
+				CCB18D9918DCC92E00EABF0F /* Man's Best Friend */,
+				CCB18DB818DCC92E00EABF0F /* Man's Best FriendTests */,
+				CCB18D9218DCC92E00EABF0F /* Frameworks */,
+				CCB18D9118DCC92E00EABF0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB18D9118DCC92E00EABF0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB18D9018DCC92E00EABF0F /* Man's Best Friend.app */,
+				CCB18DB118DCC92E00EABF0F /* Man's Best FriendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB18D9218DCC92E00EABF0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCB18D9318DCC92E00EABF0F /* Foundation.framework */,
+				CCB18D9518DCC92E00EABF0F /* CoreGraphics.framework */,
+				CCB18D9718DCC92E00EABF0F /* UIKit.framework */,
+				CCB18DB218DCC92E00EABF0F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCB18D9918DCC92E00EABF0F /* Man's Best Friend */ = {
+			isa = PBXGroup;
+			children = (
+				CCB18DA218DCC92E00EABF0F /* MBFAppDelegate.h */,
+				CCB18DA318DCC92E00EABF0F /* MBFAppDelegate.m */,
+				CCB18DA518DCC92E00EABF0F /* Main.storyboard */,
+				CCB18DA818DCC92E00EABF0F /* MBFViewController.h */,
+				CCB18DA918DCC92E00EABF0F /* MBFViewController.m */,
+				CCB18DAB18DCC92E00EABF0F /* Images.xcassets */,
+				CCB18D9A18DCC92E00EABF0F /* Supporting Files */,
+			);
+			path = "Man's Best Friend";
+			sourceTree = "<group>";
+		};
+		CCB18D9A18DCC92E00EABF0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB18D9B18DCC92E00EABF0F /* Man's Best Friend-Info.plist */,
+				CCB18D9C18DCC92E00EABF0F /* InfoPlist.strings */,
+				CCB18D9F18DCC92E00EABF0F /* main.m */,
+				CCB18DA118DCC92E00EABF0F /* Man's Best Friend-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCB18DB818DCC92E00EABF0F /* Man's Best FriendTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB18DBE18DCC92E00EABF0F /* Man_s_Best_FriendTests.m */,
+				CCB18DB918DCC92E00EABF0F /* Supporting Files */,
+			);
+			path = "Man's Best FriendTests";
+			sourceTree = "<group>";
+		};
+		CCB18DB918DCC92E00EABF0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB18DBA18DCC92E00EABF0F /* Man's Best FriendTests-Info.plist */,
+				CCB18DBB18DCC92E00EABF0F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB18D8F18DCC92E00EABF0F /* Man's Best Friend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB18DC218DCC92E00EABF0F /* Build configuration list for PBXNativeTarget "Man's Best Friend" */;
+			buildPhases = (
+				CCB18D8C18DCC92E00EABF0F /* Sources */,
+				CCB18D8D18DCC92E00EABF0F /* Frameworks */,
+				CCB18D8E18DCC92E00EABF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Man's Best Friend";
+			productName = "Man's Best Friend";
+			productReference = CCB18D9018DCC92E00EABF0F /* Man's Best Friend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB18DB018DCC92E00EABF0F /* Man's Best FriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB18DC518DCC92E00EABF0F /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */;
+			buildPhases = (
+				CCB18DAD18DCC92E00EABF0F /* Sources */,
+				CCB18DAE18DCC92E00EABF0F /* Frameworks */,
+				CCB18DAF18DCC92E00EABF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB18DB718DCC92E00EABF0F /* PBXTargetDependency */,
+			);
+			name = "Man's Best FriendTests";
+			productName = "Man's Best FriendTests";
+			productReference = CCB18DB118DCC92E00EABF0F /* Man's Best FriendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB18D8818DCC92E00EABF0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MBF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kraken Labs";
+				TargetAttributes = {
+					CCB18DB018DCC92E00EABF0F = {
+						TestTargetID = CCB18D8F18DCC92E00EABF0F;
+					};
+				};
+			};
+			buildConfigurationList = CCB18D8B18DCC92E00EABF0F /* Build configuration list for PBXProject "Man's Best Friend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB18D8718DCC92E00EABF0F;
+			productRefGroup = CCB18D9118DCC92E00EABF0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB18D8F18DCC92E00EABF0F /* Man's Best Friend */,
+				CCB18DB018DCC92E00EABF0F /* Man's Best FriendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB18D8E18DCC92E00EABF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB18DAC18DCC92E00EABF0F /* Images.xcassets in Resources */,
+				CCB18D9E18DCC92E00EABF0F /* InfoPlist.strings in Resources */,
+				CCB18DA718DCC92E00EABF0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB18DAF18DCC92E00EABF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB18DBD18DCC92E00EABF0F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB18D8C18DCC92E00EABF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB18DA418DCC92E00EABF0F /* MBFAppDelegate.m in Sources */,
+				CCB18DAA18DCC92E00EABF0F /* MBFViewController.m in Sources */,
+				CCB18DA018DCC92E00EABF0F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB18DAD18DCC92E00EABF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB18DBF18DCC92E00EABF0F /* Man_s_Best_FriendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB18DB718DCC92E00EABF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB18D8F18DCC92E00EABF0F /* Man's Best Friend */;
+			targetProxy = CCB18DB618DCC92E00EABF0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB18D9C18DCC92E00EABF0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB18D9D18DCC92E00EABF0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCB18DA518DCC92E00EABF0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB18DA618DCC92E00EABF0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB18DBB18DCC92E00EABF0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB18DBC18DCC92E00EABF0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB18DC018DCC92E00EABF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCB18DC118DCC92E00EABF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB18DC318DCC92E00EABF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Man's Best Friend/Man's Best Friend-Prefix.pch";
+				INFOPLIST_FILE = "Man's Best Friend/Man's Best Friend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCB18DC418DCC92E00EABF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Man's Best Friend/Man's Best Friend-Prefix.pch";
+				INFOPLIST_FILE = "Man's Best Friend/Man's Best Friend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCB18DC618DCC92E00EABF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Man's Best Friend.app/Man's Best Friend";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Man's Best Friend/Man's Best Friend-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Man's Best FriendTests/Man's Best FriendTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCB18DC718DCC92E00EABF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Man's Best Friend.app/Man's Best Friend";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Man's Best Friend/Man's Best Friend-Prefix.pch";
+				INFOPLIST_FILE = "Man's Best FriendTests/Man's Best FriendTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB18D8B18DCC92E00EABF0F /* Build configuration list for PBXProject "Man's Best Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB18DC018DCC92E00EABF0F /* Debug */,
+				CCB18DC118DCC92E00EABF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB18DC218DCC92E00EABF0F /* Build configuration list for PBXNativeTarget "Man's Best Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB18DC318DCC92E00EABF0F /* Debug */,
+				CCB18DC418DCC92E00EABF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCB18DC518DCC92E00EABF0F /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB18DC618DCC92E00EABF0F /* Debug */,
+				CCB18DC718DCC92E00EABF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB18D8818DCC92E00EABF0F /* Project object */;
+}

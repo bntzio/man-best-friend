@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface MBFViewController : UIViewController
+-(void)printHelloWorld;
+- (IBAction)newDogBarButtonPressed:(UIBarButtonItem *)sender;
+
+
+@property (strong, nonatomic) IBOutlet UIImageView *myImageView;
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+@property (strong, nonatomic) IBOutlet UILabel *breedLabel;
+@property (strong, nonatomic) NSMutableArray *myDogs;
+
 
 @end

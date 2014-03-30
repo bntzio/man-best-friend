@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC98B39118DF9FF900AAB7C2 /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CC98B39018DF9FF900AAB7C2 /* St.Bernard.JPG */; };
+		CC98B39518DFA95F00AAB7C2 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC98B39218DFA95F00AAB7C2 /* BorderCollie.jpg */; };
+		CC98B39618DFA95F00AAB7C2 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC98B39318DFA95F00AAB7C2 /* ItalianGreyhound.jpg */; };
+		CC98B39718DFA95F00AAB7C2 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC98B39418DFA95F00AAB7C2 /* JRT.jpg */; };
 		CCB18D9418DCC92E00EABF0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB18D9318DCC92E00EABF0F /* Foundation.framework */; };
 		CCB18D9618DCC92E00EABF0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB18D9518DCC92E00EABF0F /* CoreGraphics.framework */; };
 		CCB18D9818DCC92E00EABF0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB18D9718DCC92E00EABF0F /* UIKit.framework */; };
@@ -21,6 +25,7 @@
 		CCB18DB518DCC92E00EABF0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB18D9718DCC92E00EABF0F /* UIKit.framework */; };
 		CCB18DBD18DCC92E00EABF0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCB18DBB18DCC92E00EABF0F /* InfoPlist.strings */; };
 		CCB18DBF18DCC92E00EABF0F /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB18DBE18DCC92E00EABF0F /* Man_s_Best_FriendTests.m */; };
+		CCB18DCA18DCCAC900EABF0F /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB18DC918DCCAC900EABF0F /* MBFDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC98B39018DF9FF900AAB7C2 /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
+		CC98B39218DFA95F00AAB7C2 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		CC98B39318DFA95F00AAB7C2 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		CC98B39418DFA95F00AAB7C2 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
 		CCB18D9018DCC92E00EABF0F /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB18D9318DCC92E00EABF0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCB18D9518DCC92E00EABF0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +62,8 @@
 		CCB18DBA18DCC92E00EABF0F /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		CCB18DBC18DCC92E00EABF0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCB18DBE18DCC92E00EABF0F /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		CCB18DC818DCCAC900EABF0F /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFDog.h; path = ../MBFDog.h; sourceTree = "<group>"; };
+		CCB18DC918DCCAC900EABF0F /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFDog.m; path = ../MBFDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +128,8 @@
 				CCB18DA518DCC92E00EABF0F /* Main.storyboard */,
 				CCB18DA818DCC92E00EABF0F /* MBFViewController.h */,
 				CCB18DA918DCC92E00EABF0F /* MBFViewController.m */,
+				CCB18DC818DCCAC900EABF0F /* MBFDog.h */,
+				CCB18DC918DCCAC900EABF0F /* MBFDog.m */,
 				CCB18DAB18DCC92E00EABF0F /* Images.xcassets */,
 				CCB18D9A18DCC92E00EABF0F /* Supporting Files */,
 			);
@@ -126,6 +139,10 @@
 		CCB18D9A18DCC92E00EABF0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC98B39218DFA95F00AAB7C2 /* BorderCollie.jpg */,
+				CC98B39318DFA95F00AAB7C2 /* ItalianGreyhound.jpg */,
+				CC98B39418DFA95F00AAB7C2 /* JRT.jpg */,
+				CC98B39018DF9FF900AAB7C2 /* St.Bernard.JPG */,
 				CCB18D9B18DCC92E00EABF0F /* Man's Best Friend-Info.plist */,
 				CCB18D9C18DCC92E00EABF0F /* InfoPlist.strings */,
 				CCB18D9F18DCC92E00EABF0F /* main.m */,
@@ -229,7 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC98B39618DFA95F00AAB7C2 /* ItalianGreyhound.jpg in Resources */,
+				CC98B39118DF9FF900AAB7C2 /* St.Bernard.JPG in Resources */,
+				CC98B39718DFA95F00AAB7C2 /* JRT.jpg in Resources */,
 				CCB18DAC18DCC92E00EABF0F /* Images.xcassets in Resources */,
+				CC98B39518DFA95F00AAB7C2 /* BorderCollie.jpg in Resources */,
 				CCB18D9E18DCC92E00EABF0F /* InfoPlist.strings in Resources */,
 				CCB18DA718DCC92E00EABF0F /* Main.storyboard in Resources */,
 			);
@@ -252,6 +273,7 @@
 			files = (
 				CCB18DA418DCC92E00EABF0F /* MBFAppDelegate.m in Sources */,
 				CCB18DAA18DCC92E00EABF0F /* MBFViewController.m in Sources */,
+				CCB18DCA18DCCAC900EABF0F /* MBFDog.m in Sources */,
 				CCB18DA018DCC92E00EABF0F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +479,7 @@
 				CCB18DC418DCC92E00EABF0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCB18DC518DCC92E00EABF0F /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +488,7 @@
 				CCB18DC718DCC92E00EABF0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
